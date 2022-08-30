@@ -34,5 +34,6 @@ def find_closest_collision():
         data[2]+=data[5]
         data[1]+=data[4]
         data[0]+=data[3]
+        #data['sum']=abs(data[0])+abs(data[1])+abs(data[2])
 
-    print ("The remaining number of particles is:",data.shape[0])   
+    print ("The remaining number of particles is:",data.shape[0])
